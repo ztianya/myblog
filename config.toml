@@ -1,8 +1,8 @@
 # Hugo variables
 #
-baseurl = "http://localhost:1313/"
+baseurl = "https://shawnz.github.io/"
 languageCode = "zh-CN"
-title = "ztianya的博客"
+title = "Shawn的博客"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
@@ -81,7 +81,7 @@ hasCJKLanguage = true
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    # twitter = "username"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
