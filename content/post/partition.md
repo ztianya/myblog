@@ -56,3 +56,7 @@ cat /root/partition_entry | print_gpt_partition_entry_array
 
 如何设置磁盘格式？
 可以通过parted工具mklabel设置磁盘格式，除了gpt类型外，msdos表示Legacy mbr格式的硬盘类型。mklabel虽然不会删除数据，但会把分区表都清空掉。如果要恢复分区表，可以通过parted的rescue功能，rescue扫描磁盘中的内容，尝试识别其中的文件系统，从而判断是否存在分区。
+
+## 参考
+- https://metebalci.com/blog/a-quick-tour-of-guid-partition-table-gpt/
+- https://www.uefi.org/sites/default/files/resources/UEFI_Spec_2_7.pdf
