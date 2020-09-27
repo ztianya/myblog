@@ -1,8 +1,8 @@
 # Hugo variables
 #
-baseurl = "https://shawnz.github.io/"
+baseurl = "https://ztianya.github.io/"
 languageCode = "zh-CN"
-title = "Shawn的博客"
+title = "zx的博客"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
